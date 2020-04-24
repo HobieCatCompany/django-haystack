@@ -12,7 +12,7 @@ except ImportError:
     from setuptools import setup
 
 install_requires = [
-    'django==1.8.7',
+    'django>=1.8.7',
 ]
 
 tests_require = [
